@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WebSocket Test</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      #status {
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 4px;
+      }
+      .connected {
+        background-color: #d4edda;
+        color: #155724;
+      }
+      .disconnected {
+        background-color: #f8d7da;
+        color: #721c24;
+      }
+      #videoFeed {
+        width: 640px;
+        height: 480px;
+        background-color: #000000;
+        margin: 20px 0;
+      }
+      #stats {
+        font-family: monospace;
+        margin: 10px 0;
+        padding: 10px;
+        background-color: #f8f9fa;
+      }
+      #log {
+        height: 200px;
+        overflow-y: auto;
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>WebSocket Hand Detection Test</h1>
+    <div id="status" class="disconnected">Disconnected</div>
+    <div id="stats">
+      FPS: <span id="fpsCounter">0</span> | Latency:
+      <span id="latencyCounter">0</span>ms | Detection:
+      <span id="detectionStatus">No hands</span>
+    </div>
+    <button onclick="startTest()">Start Test</button>
+    <button onclick="stopTest()">Stop Test</button>
+
+    <video id="videoFeed" autoplay></video>
+    <canvas id="canvas" style="display: none"></canvas>
+
+    <div id="log"></div>
+
+    <script>
+      let ws;
+      let isRunning = false;
+      let videoElement;
+      let canvasElement;
+      let canvasCtx;
+      let lastFrameTime = 0;
+      let frameCount = 0;
+      let lastPingTime = 0;
+
+      async function startTest() {
+        try {
+          videoElement = document.getElementById("videoFeed");
+          canvasElement = document.getElementById("canvas");
+          canvasCtx = canvasElement.getContext("2d");
+
+          const stream = await navigator.mediaDevices.getUserMedia({
+            video: {
+              width: 640,
+              height: 480,
+              frameRate: { ideal: 15, max: 30 },
+            },
+          });
+          videoElement.srcObject = stream;
+
+          ws = new WebSocket("ws://localhost:8000/ws");
+
+          ws.onopen = () => {
+            document.getElementById("status").textContent = "Connected";
+            document.getElementById("status").className = "connected";
+            log("WebSocket connected");
+            isRunning = true;
+            requestAnimationFrame(sendFrames);
+          };
+
+          ws.onclose = () => {
+            document.getElementById("status").textContent = "Disconnected";
+            document.getElementById("status").className = "disconnected";
+            log("WebSocket disconnected");
+            isRunning = false;
+          };
+
+          ws.onerror = (error) => {
+            log("WebSocket error: " + error);
+          };
+
+          ws.onmessage = (event) => {
+            const response = JSON.parse(event.data);
+            const now = performance.now();
+
+            // Update stats
+            if (response.fps) {
+              document.getElementById("fpsCounter").textContent = response.fps;
+            }
+            if (lastPingTime) {
+              const latency = now - lastPingTime;
+              document.getElementById("latencyCounter").textContent =
+                Math.round(latency);
+            }
+            document.getElementById("detectionStatus").textContent =
+              response.detected ? "Hands detected" : "No hands";
+
+            // Log only when detection status changes
+            if (response.detected) {
+              log("Hands detected - " + response.landmarks.length + " hand(s)");
+            }
+          };
+        } catch (error) {
+          log("Error: " + error);
+        }
+      }
+
+      function stopTest() {
+        isRunning = false;
+        if (ws) {
+          ws.close();
+        }
+        if (videoElement.srcObject) {
+          videoElement.srcObject.getTracks().forEach((track) => track.stop());
+        }
+      }
+
+      function sendFrames(timestamp) {
+        if (!isRunning) return;
+
+        // Throttle frame rate
+        if (timestamp - lastFrameTime < 66) {
+          // ~15 FPS
+          requestAnimationFrame(sendFrames);
+          return;
+        }
+
+        canvasElement.width = videoElement.videoWidth;
+        canvasElement.height = videoElement.videoHeight;
+        canvasCtx.drawImage(videoElement, 0, 0);
+
+        // Optimize image quality vs size
+        const frame = canvasElement.toDataURL("image/jpeg", 0.7);
+
+        if (ws.readyState === WebSocket.OPEN) {
+          lastPingTime = performance.now();
+          ws.send(frame);
+        }
+
+        lastFrameTime = timestamp;
+        requestAnimationFrame(sendFrames);
+      }
+
+      function log(message) {
+        const logDiv = document.getElementById("log");
+        const timestamp = new Date().toLocaleTimeString();
+        logDiv.innerHTML = `[${timestamp}] ${message}<br>` + logDiv.innerHTML;
+        if (logDiv.childNodes.length > 50) {
+          logDiv.lastChild.remove();
+        }
+      }
+    </script>
+  </body>
+</html>
