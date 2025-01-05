@@ -40,11 +40,57 @@ class WLASLPreprocessor:
             'metadata': self.base_path / 'raw' / 'metadata'
         }
         self._initialize_directories()
+
+        # Load metadata
+        metadata_path = self.dirs['metadata'] / 'WLASL_v0.3.json'
+        with open(metadata_path, 'r') as f:
+            self.metadata = json.load(f)
     
     def _initialize_directories(self):
-        """Create necessary directories if they don't exist"""
-        for dir_path in self.dirs.values():
+        """Create all necessary directories for preprocessing pipeline"""
+        # Base directories
+        base_dirs = {
+            'raw_videos': self.base_path / 'raw' / 'videos',
+            'interim': self.base_path / 'interim',
+            'landmarks': self.base_path / 'interim' / 'landmarks',
+            'metadata': self.base_path / 'raw' / 'metadata',
+            'processed': self.base_path / 'processed'
+        }
+        
+        # Create base directories
+        for dir_path in base_dirs.values():
             dir_path.mkdir(parents=True, exist_ok=True)
+        
+        # Create subdirectories for interim processing
+        interim_subdirs = [
+            self.base_path / 'interim' / 'batch_results',
+            self.base_path / 'interim' / 'checkpoints'
+        ]
+        
+        # Create data split directories
+        split_dirs = [
+            self.base_path / 'processed' / 'train',
+            self.base_path / 'processed' / 'val',
+            self.base_path / 'processed' / 'test'
+        ]
+        
+        # Create all subdirectories
+        for dir_path in interim_subdirs + split_dirs:
+            dir_path.mkdir(parents=True, exist_ok=True)
+        
+        # Update the dirs dictionary with all paths
+        self.dirs = {
+            **base_dirs,
+            'batch_results': self.base_path / 'interim' / 'batch_results',
+            'checkpoints': self.base_path / 'interim' / 'checkpoints',
+            'train': self.base_path / 'processed' / 'train',
+            'val': self.base_path / 'processed' / 'val',
+            'test': self.base_path / 'processed' / 'test'
+        }
+        
+        logger.info("Directory structure initialized:")
+        for name, path in self.dirs.items():
+            logger.info(f"- {name}: {path}")
     
     def analyze_dataset_availability(self, metadata: List[Dict]) -> Dict:
         """Analyze available vs missing videos"""
@@ -99,6 +145,55 @@ class WLASLPreprocessor:
         logger.info(f"Detailed analysis saved to: {analysis_path}")
         return analysis_results
     
+    def analyze_batch_quality(self, batch_results: List[str]):
+        """Analyze hand detection quality for a batch of processed videos"""
+        detection_stats = {
+            'total_frames': 0,
+            'frames_with_hands': 0,
+            'videos_no_hands': 0,
+            'videos_analyzed': 0
+        }
+        
+        for video_id in batch_results:
+            # Find the gloss (sign class) for this video
+            gloss = next(entry['gloss'] for entry in self.metadata 
+                        if any(instance['video_id'] == video_id 
+                            for instance in entry['instances']))
+            
+            # Load and analyze the processed file
+            output_path = self.dirs['landmarks'] / gloss / f'{video_id}.npz'
+            try:
+                data = np.load(output_path, allow_pickle=True)
+                landmarks = data['landmarks']
+                
+                frames_with_hands = sum(1 for frame in landmarks if len(frame) > 0)
+                total_frames = len(landmarks)
+                
+                detection_stats['total_frames'] += total_frames
+                detection_stats['frames_with_hands'] += frames_with_hands
+                if frames_with_hands == 0:
+                    detection_stats['videos_no_hands'] += 1
+                detection_stats['videos_analyzed'] += 1
+                
+            except Exception as e:
+                logger.error(f"Error analyzing video {video_id}: {str(e)}")
+        
+        # Calculate statistics
+        if detection_stats['videos_analyzed'] > 0:
+            detection_rate = (detection_stats['frames_with_hands'] / 
+                            detection_stats['total_frames'] * 100)
+            no_hands_percentage = (detection_stats['videos_no_hands'] / 
+                                detection_stats['videos_analyzed'] * 100)
+            
+            logger.info("\nBatch Detection Statistics:")
+            logger.info(f"Total frames processed: {detection_stats['total_frames']}")
+            logger.info(f"Frames with hands: {detection_stats['frames_with_hands']}")
+            logger.info(f"Overall detection rate: {detection_rate:.1f}%")
+            logger.info(f"Videos with no hands: {detection_stats['videos_no_hands']} "
+                    f"({no_hands_percentage:.1f}%)")
+        
+        return detection_stats
+    
     def save_checkpoint(self, processed_videos: List[str], failed_videos: List[str]):
         """Save processing checkpoint"""
         checkpoint = {
@@ -123,18 +218,15 @@ class WLASLPreprocessor:
 
     @staticmethod
     def extract_frames_and_landmarks(video_info: Dict) -> bool:
-        import time  # Add at top of file if not already present
-        # Get cooling delay from video_info
-        cooling_delay = video_info.get('cooling_delay', 0)
         """Extract frames and hand landmarks from video"""
         try:
-            # Initialize MediaPipe hands in the worker process
+            # Initialize MediaPipe hands with lower confidence threshold
             mp_hands = mp.solutions.hands
             hands = mp_hands.Hands(
                 static_image_mode=False,
                 max_num_hands=2,
-                min_detection_confidence=0.7,
-                min_tracking_confidence=0.5
+                min_detection_confidence=0.3,  # Lowered threshold
+                min_tracking_confidence=0.3     # Lowered threshold
             )
             
             video_path = video_info['video_path']
@@ -145,39 +237,78 @@ class WLASLPreprocessor:
                 logger.error(f"Could not open video: {video_path}")
                 return False
                 
+           # Get original video dimensions
+            orig_width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
+            orig_height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+            
             frames = []
             landmarks = []
+            frames_with_hands = 0
+            total_frames = 0
             
             while cap.isOpened():
                 ret, frame = cap.read()
                 if not ret:
                     break
-                    
-                # Resize frame for consistency
-                frame = cv2.resize(frame, (224, 224))
                 
-                # Convert to RGB for MediaPipe
-                rgb_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-                results = hands.process(rgb_frame)
+                total_frames += 1
+                
+                # Try three different scales for better detection
+                scales = [1.0, 1.5, 0.75]
+                found_hands = False
+                
+                for scale in scales:
+                    if found_hands:
+                        break
+                        
+                    # Scale the frame
+                    process_width = int(orig_width * scale)
+                    process_height = int(orig_height * scale)
+                    process_frame = cv2.resize(frame, (process_width, process_height))
+                    
+                    # Try normal orientation
+                    rgb_frame = cv2.cvtColor(process_frame, cv2.COLOR_BGR2RGB)
+                    results = hands.process(rgb_frame)
+                    
+                    if results.multi_hand_landmarks:
+                        found_hands = True
+                    else:
+                        # Try flipped image
+                        flipped = cv2.flip(rgb_frame, 1)
+                        results_flipped = hands.process(flipped)
+                        if results_flipped.multi_hand_landmarks:
+                            results = results_flipped
+                            found_hands = True
+                            # Adjust landmarks for flipped image
+                            for hand_landmarks in results.multi_hand_landmarks:
+                                for landmark in hand_landmarks.landmark:
+                                    landmark.x = 1 - landmark.x
+                
+                # Store original frame at target size
+                frame = cv2.resize(frame, (224, 224))
+                frames.append(frame)
                 
                 frame_landmarks = []
-                if results.multi_hand_landmarks:
+                if found_hands and results.multi_hand_landmarks:
+                    frames_with_hands += 1
                     for hand_landmarks in results.multi_hand_landmarks:
                         # Extract normalized landmarks
                         hand_points = [[lm.x, lm.y, lm.z] for lm in hand_landmarks.landmark]
                         frame_landmarks.append(hand_points)
                 
-                frames.append(frame)
                 landmarks.append(frame_landmarks)
             
             cap.release()
             hands.close()
             
-            # Add cooling delay
-            if cooling_delay > 0:
-                time.sleep(cooling_delay)
+            # Log detection rate for this video
+            if total_frames > 0:
+                detection_rate = (frames_with_hands / total_frames) * 100
+                logger.info(f"Video {video_info['video_id']}: "
+                        f"Hand detection rate: {detection_rate:.1f}% "
+                        f"({frames_with_hands}/{total_frames} frames)")
             
-            # Save processed data
+            # Save processed data if we have frames
             if len(frames) > 0:
                 frames = np.array(frames)
                 landmarks = np.array(landmarks, dtype=object)
@@ -242,7 +373,7 @@ class WLASLPreprocessor:
             return False
 
     def process_batch(self, batch_videos: List[Dict], batch_id: int):
-        """Process a batch of videos"""
+        """Process a batch of videos and analyze quality"""
         batch_results = {
             'processed': [],
             'failed': [],
@@ -255,6 +386,7 @@ class WLASLPreprocessor:
         logger.info(f"Using {num_cores}/{available_cores} CPU cores")
         chunk_size = max(1, len(batch_videos) // (num_cores * 2))
         
+        # Process videos with multiprocessing
         with multiprocessing.Pool(num_cores) as pool:
             for i, result in enumerate(tqdm(
                 pool.imap(self.extract_frames_and_landmarks, batch_videos, chunksize=chunk_size),
@@ -267,9 +399,24 @@ class WLASLPreprocessor:
                 else:
                     batch_results['failed'].append(video_id)
         
+        # Add timing information
         end_time = datetime.now()
         batch_results['end_time'] = end_time.isoformat()
         batch_results['duration'] = (end_time - datetime.fromisoformat(batch_results['start_time'])).total_seconds()
+        
+        # Analyze quality for successfully processed videos
+        logger.info("\nAnalyzing batch quality...")
+        quality_stats = self.analyze_batch_quality(batch_results['processed'])
+        batch_results['quality_stats'] = quality_stats
+        
+        # Log quality statistics
+        logger.info(f"\nBatch {batch_id} Quality Analysis:")
+        if quality_stats['videos_analyzed'] > 0:
+            detection_rate = (quality_stats['frames_with_hands'] / quality_stats['total_frames'] * 100)
+            logger.info(f"Overall hand detection rate: {detection_rate:.1f}%")
+            logger.info(f"Videos with no hands detected: {quality_stats['videos_no_hands']}")
+            logger.info(f"Total frames processed: {quality_stats['total_frames']}")
+            logger.info(f"Frames with hands: {quality_stats['frames_with_hands']}")
         
         # Save batch results
         batch_path = self.dirs['interim'] / 'batch_results' / f'batch_{batch_id}.json'
@@ -350,7 +497,7 @@ def main():
     # Initialize preprocessor with resource limits
     preprocessor = WLASLPreprocessor(
         batch_size=100,
-        cpu_limit=0.3,  # Use only 30% of CPU cores
+        cpu_limit=0.4,  # Use only 40% of CPU cores
         cooling_delay=0.1  # Add 0.1 second delay between videos
     )
     

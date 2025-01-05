@@ -1,0 +1,42 @@
+# Model configuration
+model:
+  embed_dim: 64
+  spatial_dim: 128
+  hidden_dim: 256
+  num_layers: 2
+  dropout: 0.3
+  num_classes: 50 # Will be updated based on dataset
+
+# Training configuration
+training:
+  # Data settings
+  batch_size: 64
+  num_workers: 6
+  max_seq_length: 100
+
+  # Training hyperparameters
+  learning_rate: 0.001
+  weight_decay: 0.01
+  epochs: 100
+  early_stopping_patience: 10
+
+  # Optimizer settings
+  optimizer: "adam"
+  scheduler: "cosine"
+  warmup_epochs: 5
+
+  # Augmentation settings
+  rotation_range: 15.0
+  scale_range: 0.1
+  translation_range: 0.1
+  noise_factor: 0.05
+
+  # M3 Pro specific settings
+  device: "mps"
+  pin_memory: true
+  use_mixed_precision: true
+  prefetch_factor: 2
+
+  # Logging settings
+  log_interval: 10
+  experiment_name: "sign_language_model"
