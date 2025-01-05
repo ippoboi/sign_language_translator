@@ -1,7 +1,21 @@
-venv/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
 documentation/
+
+# Data directories
+data/raw/
+data/processed/
+data/interim/
+*.mp4
+*.npz
+*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+.DS_Store

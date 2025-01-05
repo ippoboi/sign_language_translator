@@ -1,0 +1,1028 @@
+2025-01-05 17:30:21,825 - INFO - 
+Dataset Availability Analysis:
+2025-01-05 17:30:21,825 - INFO - Total videos in JSON: 21083
+2025-01-05 17:30:21,825 - INFO - Videos available: 11980
+2025-01-05 17:30:21,825 - INFO - Videos missing: 9103
+2025-01-05 17:30:21,825 - INFO - Availability percentage: 56.82%
+2025-01-05 17:30:21,828 - INFO - Detailed analysis saved to: ../../data/raw/metadata/dataset_analysis.json
+2025-01-05 17:31:51,258 - INFO - 
+Dataset Availability Analysis:
+2025-01-05 17:31:51,259 - INFO - Total videos in JSON: 21083
+2025-01-05 17:31:51,259 - INFO - Videos available: 11980
+2025-01-05 17:31:51,259 - INFO - Videos missing: 9103
+2025-01-05 17:31:51,259 - INFO - Availability percentage: 56.82%
+2025-01-05 17:31:51,261 - INFO - Detailed analysis saved to: ../../data/raw/metadata/dataset_analysis.json
+2025-01-05 17:33:24,665 - INFO - 
+Processing batch 1/120
+2025-01-05 17:36:46,429 - INFO - 
+Dataset Availability Analysis:
+2025-01-05 17:36:46,430 - INFO - Total videos in JSON: 21083
+2025-01-05 17:36:46,430 - INFO - Videos available: 11980
+2025-01-05 17:36:46,430 - INFO - Videos missing: 9103
+2025-01-05 17:36:46,430 - INFO - Availability percentage: 56.82%
+2025-01-05 17:36:46,432 - INFO - Detailed analysis saved to: ../../data/raw/metadata/dataset_analysis.json
+2025-01-05 17:38:21,811 - INFO - 
+Processing batch 1/120
+2025-01-05 17:42:14,133 - INFO - 
+Dataset Availability Analysis:
+2025-01-05 17:42:14,133 - INFO - Total videos in JSON: 21083
+2025-01-05 17:42:14,133 - INFO - Videos available: 11980
+2025-01-05 17:42:14,133 - INFO - Videos missing: 9103
+2025-01-05 17:42:14,133 - INFO - Availability percentage: 56.82%
+2025-01-05 17:42:14,135 - INFO - Detailed analysis saved to: ../../data/raw/metadata/dataset_analysis.json
+2025-01-05 17:43:49,387 - INFO - 
+Processing batch 1/120
+2025-01-05 17:44:20,878 - INFO - Checkpoint saved: 100 videos processed
+2025-01-05 17:44:20,878 - INFO - Batch 1 completed:
+2025-01-05 17:44:20,878 - INFO - Processed: 100 videos
+2025-01-05 17:44:20,878 - INFO - Failed: 0 videos
+2025-01-05 17:44:20,878 - INFO - Duration: 31.49 seconds
+2025-01-05 17:44:20,878 - INFO - 
+Processing batch 2/120
+2025-01-05 17:44:45,729 - INFO - Checkpoint saved: 200 videos processed
+2025-01-05 17:44:45,730 - INFO - Batch 2 completed:
+2025-01-05 17:44:45,730 - INFO - Processed: 100 videos
+2025-01-05 17:44:45,730 - INFO - Failed: 0 videos
+2025-01-05 17:44:45,730 - INFO - Duration: 24.85 seconds
+2025-01-05 17:44:45,730 - INFO - 
+Processing batch 3/120
+2025-01-05 17:45:11,955 - INFO - Checkpoint saved: 300 videos processed
+2025-01-05 17:45:11,955 - INFO - Batch 3 completed:
+2025-01-05 17:45:11,955 - INFO - Processed: 100 videos
+2025-01-05 17:45:11,955 - INFO - Failed: 0 videos
+2025-01-05 17:45:11,955 - INFO - Duration: 26.22 seconds
+2025-01-05 17:45:11,955 - INFO - 
+Processing batch 4/120
+2025-01-05 17:48:01,314 - INFO - 
+Dataset Availability Analysis:
+2025-01-05 17:48:01,314 - INFO - Total videos in JSON: 21083
+2025-01-05 17:48:01,314 - INFO - Videos available: 11980
+2025-01-05 17:48:01,314 - INFO - Videos missing: 9103
+2025-01-05 17:48:01,314 - INFO - Availability percentage: 56.82%
+2025-01-05 17:48:01,316 - INFO - Detailed analysis saved to: ../../data/raw/metadata/dataset_analysis.json
+2025-01-05 17:48:01,317 - INFO - Loaded checkpoint from 2025-01-05 17:45:11.954633
+2025-01-05 17:49:32,809 - INFO - 
+Processing batch 1/117
+2025-01-05 17:49:32,810 - INFO - Using 3/12 CPU cores
+2025-01-05 17:50:23,131 - INFO - Checkpoint saved: 400 videos processed
+2025-01-05 17:50:23,131 - INFO - Batch 1 completed:
+2025-01-05 17:50:23,132 - INFO - Processed: 100 videos
+2025-01-05 17:50:23,132 - INFO - Failed: 0 videos
+2025-01-05 17:50:23,132 - INFO - Duration: 50.31 seconds
+2025-01-05 17:50:23,132 - INFO - 
+Processing batch 2/117
+2025-01-05 17:50:23,132 - INFO - Using 3/12 CPU cores
+2025-01-05 17:51:17,369 - INFO - Checkpoint saved: 500 videos processed
+2025-01-05 17:51:17,370 - INFO - Batch 2 completed:
+2025-01-05 17:51:17,370 - INFO - Processed: 100 videos
+2025-01-05 17:51:17,370 - INFO - Failed: 0 videos
+2025-01-05 17:51:17,370 - INFO - Duration: 54.24 seconds
+2025-01-05 17:51:17,370 - INFO - 
+Processing batch 3/117
+2025-01-05 17:51:17,370 - INFO - Using 3/12 CPU cores
+2025-01-05 17:52:13,090 - INFO - Checkpoint saved: 600 videos processed
+2025-01-05 17:52:13,090 - INFO - Batch 3 completed:
+2025-01-05 17:52:13,090 - INFO - Processed: 100 videos
+2025-01-05 17:52:13,090 - INFO - Failed: 0 videos
+2025-01-05 17:52:13,090 - INFO - Duration: 55.72 seconds
+2025-01-05 17:52:13,090 - INFO - 
+Processing batch 4/117
+2025-01-05 17:52:13,090 - INFO - Using 3/12 CPU cores
+2025-01-05 17:53:06,990 - INFO - Checkpoint saved: 700 videos processed
+2025-01-05 17:53:06,990 - INFO - Batch 4 completed:
+2025-01-05 17:53:06,990 - INFO - Processed: 100 videos
+2025-01-05 17:53:06,990 - INFO - Failed: 0 videos
+2025-01-05 17:53:06,990 - INFO - Duration: 53.90 seconds
+2025-01-05 17:53:06,990 - INFO - 
+Processing batch 5/117
+2025-01-05 17:53:06,990 - INFO - Using 3/12 CPU cores
+2025-01-05 17:54:01,579 - INFO - Checkpoint saved: 800 videos processed
+2025-01-05 17:54:01,579 - INFO - Batch 5 completed:
+2025-01-05 17:54:01,579 - INFO - Processed: 100 videos
+2025-01-05 17:54:01,579 - INFO - Failed: 0 videos
+2025-01-05 17:54:01,579 - INFO - Duration: 54.59 seconds
+2025-01-05 17:54:01,579 - INFO - 
+Processing batch 6/117
+2025-01-05 17:54:01,579 - INFO - Using 3/12 CPU cores
+2025-01-05 17:54:58,695 - INFO - Checkpoint saved: 900 videos processed
+2025-01-05 17:54:58,695 - INFO - Batch 6 completed:
+2025-01-05 17:54:58,695 - INFO - Processed: 100 videos
+2025-01-05 17:54:58,695 - INFO - Failed: 0 videos
+2025-01-05 17:54:58,695 - INFO - Duration: 57.11 seconds
+2025-01-05 17:54:58,695 - INFO - 
+Processing batch 7/117
+2025-01-05 17:54:58,695 - INFO - Using 3/12 CPU cores
+2025-01-05 17:55:53,276 - INFO - Checkpoint saved: 1000 videos processed
+2025-01-05 17:55:53,277 - INFO - Batch 7 completed:
+2025-01-05 17:55:53,277 - INFO - Processed: 100 videos
+2025-01-05 17:55:53,277 - INFO - Failed: 0 videos
+2025-01-05 17:55:53,277 - INFO - Duration: 54.58 seconds
+2025-01-05 17:55:53,277 - INFO - 
+Processing batch 8/117
+2025-01-05 17:55:53,277 - INFO - Using 3/12 CPU cores
+2025-01-05 17:56:50,966 - INFO - Checkpoint saved: 1100 videos processed
+2025-01-05 17:56:50,967 - INFO - Batch 8 completed:
+2025-01-05 17:56:50,967 - INFO - Processed: 100 videos
+2025-01-05 17:56:50,967 - INFO - Failed: 0 videos
+2025-01-05 17:56:50,967 - INFO - Duration: 57.69 seconds
+2025-01-05 17:56:50,967 - INFO - 
+Processing batch 9/117
+2025-01-05 17:56:50,967 - INFO - Using 3/12 CPU cores
+2025-01-05 17:57:49,251 - INFO - Checkpoint saved: 1200 videos processed
+2025-01-05 17:57:49,251 - INFO - Batch 9 completed:
+2025-01-05 17:57:49,251 - INFO - Processed: 100 videos
+2025-01-05 17:57:49,251 - INFO - Failed: 0 videos
+2025-01-05 17:57:49,251 - INFO - Duration: 58.28 seconds
+2025-01-05 17:57:49,251 - INFO - 
+Processing batch 10/117
+2025-01-05 17:57:49,251 - INFO - Using 3/12 CPU cores
+2025-01-05 17:58:46,474 - INFO - Checkpoint saved: 1300 videos processed
+2025-01-05 17:58:46,474 - INFO - Batch 10 completed:
+2025-01-05 17:58:46,474 - INFO - Processed: 100 videos
+2025-01-05 17:58:46,474 - INFO - Failed: 0 videos
+2025-01-05 17:58:46,474 - INFO - Duration: 57.22 seconds
+2025-01-05 17:58:46,474 - INFO - 
+Processing batch 11/117
+2025-01-05 17:58:46,474 - INFO - Using 3/12 CPU cores
+2025-01-05 17:59:41,998 - INFO - Checkpoint saved: 1400 videos processed
+2025-01-05 17:59:41,999 - INFO - Batch 11 completed:
+2025-01-05 17:59:41,999 - INFO - Processed: 100 videos
+2025-01-05 17:59:41,999 - INFO - Failed: 0 videos
+2025-01-05 17:59:41,999 - INFO - Duration: 55.52 seconds
+2025-01-05 17:59:41,999 - INFO - 
+Processing batch 12/117
+2025-01-05 17:59:41,999 - INFO - Using 3/12 CPU cores
+2025-01-05 18:00:35,550 - INFO - Checkpoint saved: 1500 videos processed
+2025-01-05 18:00:35,551 - INFO - Batch 12 completed:
+2025-01-05 18:00:35,551 - INFO - Processed: 100 videos
+2025-01-05 18:00:35,551 - INFO - Failed: 0 videos
+2025-01-05 18:00:35,551 - INFO - Duration: 53.55 seconds
+2025-01-05 18:00:35,551 - INFO - 
+Processing batch 13/117
+2025-01-05 18:00:35,551 - INFO - Using 3/12 CPU cores
+2025-01-05 18:01:32,034 - INFO - Checkpoint saved: 1600 videos processed
+2025-01-05 18:01:32,034 - INFO - Batch 13 completed:
+2025-01-05 18:01:32,034 - INFO - Processed: 100 videos
+2025-01-05 18:01:32,034 - INFO - Failed: 0 videos
+2025-01-05 18:01:32,034 - INFO - Duration: 56.48 seconds
+2025-01-05 18:01:32,034 - INFO - 
+Processing batch 14/117
+2025-01-05 18:01:32,034 - INFO - Using 3/12 CPU cores
+2025-01-05 18:02:29,639 - INFO - Checkpoint saved: 1700 videos processed
+2025-01-05 18:02:29,639 - INFO - Batch 14 completed:
+2025-01-05 18:02:29,639 - INFO - Processed: 100 videos
+2025-01-05 18:02:29,640 - INFO - Failed: 0 videos
+2025-01-05 18:02:29,640 - INFO - Duration: 57.60 seconds
+2025-01-05 18:02:29,640 - INFO - 
+Processing batch 15/117
+2025-01-05 18:02:29,640 - INFO - Using 3/12 CPU cores
+2025-01-05 18:03:25,913 - INFO - Checkpoint saved: 1800 videos processed
+2025-01-05 18:03:25,913 - INFO - Batch 15 completed:
+2025-01-05 18:03:25,913 - INFO - Processed: 100 videos
+2025-01-05 18:03:25,913 - INFO - Failed: 0 videos
+2025-01-05 18:03:25,913 - INFO - Duration: 56.27 seconds
+2025-01-05 18:03:25,913 - INFO - 
+Processing batch 16/117
+2025-01-05 18:03:25,913 - INFO - Using 3/12 CPU cores
+2025-01-05 18:04:25,554 - INFO - Checkpoint saved: 1900 videos processed
+2025-01-05 18:04:25,554 - INFO - Batch 16 completed:
+2025-01-05 18:04:25,554 - INFO - Processed: 100 videos
+2025-01-05 18:04:25,554 - INFO - Failed: 0 videos
+2025-01-05 18:04:25,554 - INFO - Duration: 59.64 seconds
+2025-01-05 18:04:25,554 - INFO - 
+Processing batch 17/117
+2025-01-05 18:04:25,554 - INFO - Using 3/12 CPU cores
+2025-01-05 18:05:21,788 - INFO - Checkpoint saved: 2000 videos processed
+2025-01-05 18:05:21,788 - INFO - Batch 17 completed:
+2025-01-05 18:05:21,789 - INFO - Processed: 100 videos
+2025-01-05 18:05:21,789 - INFO - Failed: 0 videos
+2025-01-05 18:05:21,789 - INFO - Duration: 56.23 seconds
+2025-01-05 18:05:21,789 - INFO - 
+Processing batch 18/117
+2025-01-05 18:05:21,789 - INFO - Using 3/12 CPU cores
+2025-01-05 18:06:18,316 - INFO - Checkpoint saved: 2100 videos processed
+2025-01-05 18:06:18,316 - INFO - Batch 18 completed:
+2025-01-05 18:06:18,316 - INFO - Processed: 100 videos
+2025-01-05 18:06:18,316 - INFO - Failed: 0 videos
+2025-01-05 18:06:18,316 - INFO - Duration: 56.52 seconds
+2025-01-05 18:06:18,316 - INFO - 
+Processing batch 19/117
+2025-01-05 18:06:18,316 - INFO - Using 3/12 CPU cores
+2025-01-05 18:07:14,555 - INFO - Checkpoint saved: 2200 videos processed
+2025-01-05 18:07:14,556 - INFO - Batch 19 completed:
+2025-01-05 18:07:14,556 - INFO - Processed: 100 videos
+2025-01-05 18:07:14,556 - INFO - Failed: 0 videos
+2025-01-05 18:07:14,556 - INFO - Duration: 56.24 seconds
+2025-01-05 18:07:14,556 - INFO - 
+Processing batch 20/117
+2025-01-05 18:07:14,556 - INFO - Using 3/12 CPU cores
+2025-01-05 18:08:11,544 - INFO - Checkpoint saved: 2300 videos processed
+2025-01-05 18:08:11,544 - INFO - Batch 20 completed:
+2025-01-05 18:08:11,545 - INFO - Processed: 100 videos
+2025-01-05 18:08:11,545 - INFO - Failed: 0 videos
+2025-01-05 18:08:11,545 - INFO - Duration: 56.98 seconds
+2025-01-05 18:08:11,545 - INFO - 
+Processing batch 21/117
+2025-01-05 18:08:11,545 - INFO - Using 3/12 CPU cores
+2025-01-05 18:09:07,554 - INFO - 
+Dataset Availability Analysis:
+2025-01-05 18:09:07,554 - INFO - Total videos in JSON: 21083
+2025-01-05 18:09:07,554 - INFO - Videos available: 11980
+2025-01-05 18:09:07,554 - INFO - Videos missing: 9103
+2025-01-05 18:09:07,554 - INFO - Availability percentage: 56.82%
+2025-01-05 18:09:07,556 - INFO - Detailed analysis saved to: ../../data/raw/metadata/dataset_analysis.json
+2025-01-05 18:09:07,557 - INFO - Loaded checkpoint from 2025-01-05 18:08:11.542750
+2025-01-05 18:10:28,555 - INFO - 
+Processing batch 1/97
+2025-01-05 18:10:28,555 - INFO - Using 3/12 CPU cores
+2025-01-05 18:12:28,095 - INFO - 
+Dataset Availability Analysis:
+2025-01-05 18:12:28,096 - INFO - Total videos in JSON: 21083
+2025-01-05 18:12:28,096 - INFO - Videos available: 11980
+2025-01-05 18:12:28,096 - INFO - Videos missing: 9103
+2025-01-05 18:12:28,096 - INFO - Availability percentage: 56.82%
+2025-01-05 18:12:28,098 - INFO - Detailed analysis saved to: ../../data/raw/metadata/dataset_analysis.json
+2025-01-05 18:12:28,099 - INFO - Loaded checkpoint from 2025-01-05 18:08:11.542750
+2025-01-05 18:14:28,571 - INFO - 
+Processing batch 1/97
+2025-01-05 18:14:28,572 - INFO - Using 3/12 CPU cores
+2025-01-05 18:15:28,617 - INFO - Checkpoint saved: 2400 videos processed
+2025-01-05 18:15:28,618 - INFO - Batch 1 completed:
+2025-01-05 18:15:28,618 - INFO - Processed: 100 videos
+2025-01-05 18:15:28,618 - INFO - Failed: 0 videos
+2025-01-05 18:15:28,618 - INFO - Duration: 60.04 seconds
+2025-01-05 18:15:28,618 - INFO - 
+Processing batch 2/97
+2025-01-05 18:15:28,618 - INFO - Using 3/12 CPU cores
+2025-01-05 18:16:22,646 - INFO - Checkpoint saved: 2500 videos processed
+2025-01-05 18:16:22,647 - INFO - Batch 2 completed:
+2025-01-05 18:16:22,647 - INFO - Processed: 100 videos
+2025-01-05 18:16:22,647 - INFO - Failed: 0 videos
+2025-01-05 18:16:22,647 - INFO - Duration: 54.03 seconds
+2025-01-05 18:16:22,647 - INFO - 
+Processing batch 3/97
+2025-01-05 18:16:22,647 - INFO - Using 3/12 CPU cores
+2025-01-05 18:17:16,950 - INFO - Checkpoint saved: 2600 videos processed
+2025-01-05 18:17:16,951 - INFO - Batch 3 completed:
+2025-01-05 18:17:16,951 - INFO - Processed: 100 videos
+2025-01-05 18:17:16,951 - INFO - Failed: 0 videos
+2025-01-05 18:17:16,951 - INFO - Duration: 54.30 seconds
+2025-01-05 18:17:16,951 - INFO - 
+Processing batch 4/97
+2025-01-05 18:17:16,951 - INFO - Using 3/12 CPU cores
+2025-01-05 18:18:14,407 - INFO - Checkpoint saved: 2700 videos processed
+2025-01-05 18:18:14,407 - INFO - Batch 4 completed:
+2025-01-05 18:18:14,408 - INFO - Processed: 100 videos
+2025-01-05 18:18:14,408 - INFO - Failed: 0 videos
+2025-01-05 18:18:14,408 - INFO - Duration: 57.45 seconds
+2025-01-05 18:18:14,408 - INFO - 
+Processing batch 5/97
+2025-01-05 18:18:14,408 - INFO - Using 3/12 CPU cores
+2025-01-05 18:19:11,447 - INFO - Checkpoint saved: 2800 videos processed
+2025-01-05 18:19:11,448 - INFO - Batch 5 completed:
+2025-01-05 18:19:11,448 - INFO - Processed: 100 videos
+2025-01-05 18:19:11,448 - INFO - Failed: 0 videos
+2025-01-05 18:19:11,448 - INFO - Duration: 57.04 seconds
+2025-01-05 18:19:11,448 - INFO - 
+Processing batch 6/97
+2025-01-05 18:19:11,448 - INFO - Using 3/12 CPU cores
+2025-01-05 18:20:13,329 - INFO - Checkpoint saved: 2900 videos processed
+2025-01-05 18:20:13,330 - INFO - Batch 6 completed:
+2025-01-05 18:20:13,330 - INFO - Processed: 100 videos
+2025-01-05 18:20:13,330 - INFO - Failed: 0 videos
+2025-01-05 18:20:13,330 - INFO - Duration: 61.88 seconds
+2025-01-05 18:20:13,330 - INFO - 
+Processing batch 7/97
+2025-01-05 18:20:13,330 - INFO - Using 3/12 CPU cores
+2025-01-05 18:21:09,537 - INFO - Checkpoint saved: 3000 videos processed
+2025-01-05 18:21:09,538 - INFO - Batch 7 completed:
+2025-01-05 18:21:09,538 - INFO - Processed: 100 videos
+2025-01-05 18:21:09,538 - INFO - Failed: 0 videos
+2025-01-05 18:21:09,538 - INFO - Duration: 56.20 seconds
+2025-01-05 18:21:09,538 - INFO - 
+Processing batch 8/97
+2025-01-05 18:21:09,538 - INFO - Using 3/12 CPU cores
+2025-01-05 18:22:08,369 - INFO - Checkpoint saved: 3100 videos processed
+2025-01-05 18:22:08,369 - INFO - Batch 8 completed:
+2025-01-05 18:22:08,369 - INFO - Processed: 100 videos
+2025-01-05 18:22:08,369 - INFO - Failed: 0 videos
+2025-01-05 18:22:08,369 - INFO - Duration: 58.83 seconds
+2025-01-05 18:22:08,369 - INFO - 
+Processing batch 9/97
+2025-01-05 18:22:08,370 - INFO - Using 3/12 CPU cores
+2025-01-05 18:23:03,036 - INFO - Checkpoint saved: 3200 videos processed
+2025-01-05 18:23:03,036 - INFO - Batch 9 completed:
+2025-01-05 18:23:03,036 - INFO - Processed: 100 videos
+2025-01-05 18:23:03,036 - INFO - Failed: 0 videos
+2025-01-05 18:23:03,036 - INFO - Duration: 54.66 seconds
+2025-01-05 18:23:03,036 - INFO - 
+Processing batch 10/97
+2025-01-05 18:23:03,036 - INFO - Using 3/12 CPU cores
+2025-01-05 18:23:59,603 - INFO - Checkpoint saved: 3300 videos processed
+2025-01-05 18:23:59,604 - INFO - Batch 10 completed:
+2025-01-05 18:23:59,604 - INFO - Processed: 100 videos
+2025-01-05 18:23:59,604 - INFO - Failed: 0 videos
+2025-01-05 18:23:59,604 - INFO - Duration: 56.56 seconds
+2025-01-05 18:23:59,604 - INFO - 
+Processing batch 11/97
+2025-01-05 18:23:59,604 - INFO - Using 3/12 CPU cores
+2025-01-05 18:24:51,170 - INFO - Checkpoint saved: 3400 videos processed
+2025-01-05 18:24:51,171 - INFO - Batch 11 completed:
+2025-01-05 18:24:51,171 - INFO - Processed: 100 videos
+2025-01-05 18:24:51,171 - INFO - Failed: 0 videos
+2025-01-05 18:24:51,171 - INFO - Duration: 51.56 seconds
+2025-01-05 18:24:51,171 - INFO - 
+Processing batch 12/97
+2025-01-05 18:24:51,171 - INFO - Using 3/12 CPU cores
+2025-01-05 18:25:48,995 - INFO - Checkpoint saved: 3500 videos processed
+2025-01-05 18:25:48,995 - INFO - Batch 12 completed:
+2025-01-05 18:25:48,995 - INFO - Processed: 100 videos
+2025-01-05 18:25:48,995 - INFO - Failed: 0 videos
+2025-01-05 18:25:48,995 - INFO - Duration: 57.82 seconds
+2025-01-05 18:25:48,995 - INFO - 
+Processing batch 13/97
+2025-01-05 18:25:48,996 - INFO - Using 3/12 CPU cores
+2025-01-05 18:26:44,592 - INFO - Checkpoint saved: 3600 videos processed
+2025-01-05 18:26:44,593 - INFO - Batch 13 completed:
+2025-01-05 18:26:44,593 - INFO - Processed: 100 videos
+2025-01-05 18:26:44,593 - INFO - Failed: 0 videos
+2025-01-05 18:26:44,593 - INFO - Duration: 55.59 seconds
+2025-01-05 18:26:44,593 - INFO - 
+Processing batch 14/97
+2025-01-05 18:26:44,593 - INFO - Using 3/12 CPU cores
+2025-01-05 18:27:40,663 - INFO - Checkpoint saved: 3700 videos processed
+2025-01-05 18:27:40,663 - INFO - Batch 14 completed:
+2025-01-05 18:27:40,663 - INFO - Processed: 100 videos
+2025-01-05 18:27:40,663 - INFO - Failed: 0 videos
+2025-01-05 18:27:40,663 - INFO - Duration: 56.07 seconds
+2025-01-05 18:27:40,664 - INFO - 
+Processing batch 15/97
+2025-01-05 18:27:40,664 - INFO - Using 3/12 CPU cores
+2025-01-05 18:28:38,976 - INFO - Checkpoint saved: 3800 videos processed
+2025-01-05 18:28:38,976 - INFO - Batch 15 completed:
+2025-01-05 18:28:38,976 - INFO - Processed: 100 videos
+2025-01-05 18:28:38,976 - INFO - Failed: 0 videos
+2025-01-05 18:28:38,976 - INFO - Duration: 58.31 seconds
+2025-01-05 18:28:38,976 - INFO - 
+Processing batch 16/97
+2025-01-05 18:28:38,976 - INFO - Using 3/12 CPU cores
+2025-01-05 18:29:34,509 - INFO - Checkpoint saved: 3900 videos processed
+2025-01-05 18:29:34,509 - INFO - Batch 16 completed:
+2025-01-05 18:29:34,509 - INFO - Processed: 100 videos
+2025-01-05 18:29:34,509 - INFO - Failed: 0 videos
+2025-01-05 18:29:34,509 - INFO - Duration: 55.53 seconds
+2025-01-05 18:29:34,509 - INFO - 
+Processing batch 17/97
+2025-01-05 18:29:34,509 - INFO - Using 3/12 CPU cores
+2025-01-05 18:30:32,831 - INFO - Checkpoint saved: 4000 videos processed
+2025-01-05 18:30:32,833 - INFO - Batch 17 completed:
+2025-01-05 18:30:32,834 - INFO - Processed: 100 videos
+2025-01-05 18:30:32,834 - INFO - Failed: 0 videos
+2025-01-05 18:30:32,834 - INFO - Duration: 58.31 seconds
+2025-01-05 18:30:32,834 - INFO - 
+Processing batch 18/97
+2025-01-05 18:30:32,834 - INFO - Using 3/12 CPU cores
+2025-01-05 18:31:31,656 - INFO - Checkpoint saved: 4100 videos processed
+2025-01-05 18:31:31,657 - INFO - Batch 18 completed:
+2025-01-05 18:31:31,657 - INFO - Processed: 100 videos
+2025-01-05 18:31:31,657 - INFO - Failed: 0 videos
+2025-01-05 18:31:31,657 - INFO - Duration: 58.82 seconds
+2025-01-05 18:31:31,657 - INFO - 
+Processing batch 19/97
+2025-01-05 18:31:31,657 - INFO - Using 3/12 CPU cores
+2025-01-05 18:32:27,053 - INFO - Checkpoint saved: 4200 videos processed
+2025-01-05 18:32:27,053 - INFO - Batch 19 completed:
+2025-01-05 18:32:27,053 - INFO - Processed: 100 videos
+2025-01-05 18:32:27,053 - INFO - Failed: 0 videos
+2025-01-05 18:32:27,053 - INFO - Duration: 55.39 seconds
+2025-01-05 18:32:27,053 - INFO - 
+Processing batch 20/97
+2025-01-05 18:32:27,053 - INFO - Using 3/12 CPU cores
+2025-01-05 18:33:21,070 - INFO - Checkpoint saved: 4300 videos processed
+2025-01-05 18:33:21,071 - INFO - Batch 20 completed:
+2025-01-05 18:33:21,071 - INFO - Processed: 100 videos
+2025-01-05 18:33:21,071 - INFO - Failed: 0 videos
+2025-01-05 18:33:21,071 - INFO - Duration: 54.01 seconds
+2025-01-05 18:33:21,071 - INFO - 
+Processing batch 21/97
+2025-01-05 18:33:21,071 - INFO - Using 3/12 CPU cores
+2025-01-05 18:34:13,916 - INFO - Checkpoint saved: 4400 videos processed
+2025-01-05 18:34:13,916 - INFO - Batch 21 completed:
+2025-01-05 18:34:13,916 - INFO - Processed: 100 videos
+2025-01-05 18:34:13,916 - INFO - Failed: 0 videos
+2025-01-05 18:34:13,916 - INFO - Duration: 52.84 seconds
+2025-01-05 18:34:13,916 - INFO - 
+Processing batch 22/97
+2025-01-05 18:34:13,916 - INFO - Using 3/12 CPU cores
+2025-01-05 18:35:06,879 - INFO - Checkpoint saved: 4500 videos processed
+2025-01-05 18:35:06,879 - INFO - Batch 22 completed:
+2025-01-05 18:35:06,879 - INFO - Processed: 100 videos
+2025-01-05 18:35:06,879 - INFO - Failed: 0 videos
+2025-01-05 18:35:06,879 - INFO - Duration: 52.96 seconds
+2025-01-05 18:35:06,879 - INFO - 
+Processing batch 23/97
+2025-01-05 18:35:06,879 - INFO - Using 3/12 CPU cores
+2025-01-05 18:36:00,660 - INFO - Checkpoint saved: 4600 videos processed
+2025-01-05 18:36:00,661 - INFO - Batch 23 completed:
+2025-01-05 18:36:00,661 - INFO - Processed: 100 videos
+2025-01-05 18:36:00,661 - INFO - Failed: 0 videos
+2025-01-05 18:36:00,661 - INFO - Duration: 53.78 seconds
+2025-01-05 18:36:00,661 - INFO - 
+Processing batch 24/97
+2025-01-05 18:36:00,661 - INFO - Using 3/12 CPU cores
+2025-01-05 18:36:51,414 - INFO - Checkpoint saved: 4700 videos processed
+2025-01-05 18:36:51,415 - INFO - Batch 24 completed:
+2025-01-05 18:36:51,415 - INFO - Processed: 100 videos
+2025-01-05 18:36:51,415 - INFO - Failed: 0 videos
+2025-01-05 18:36:51,415 - INFO - Duration: 50.75 seconds
+2025-01-05 18:36:51,415 - INFO - 
+Processing batch 25/97
+2025-01-05 18:36:51,415 - INFO - Using 3/12 CPU cores
+2025-01-05 18:37:47,993 - INFO - Checkpoint saved: 4800 videos processed
+2025-01-05 18:37:47,993 - INFO - Batch 25 completed:
+2025-01-05 18:37:47,993 - INFO - Processed: 100 videos
+2025-01-05 18:37:47,993 - INFO - Failed: 0 videos
+2025-01-05 18:37:47,993 - INFO - Duration: 56.58 seconds
+2025-01-05 18:37:47,993 - INFO - 
+Processing batch 26/97
+2025-01-05 18:37:47,993 - INFO - Using 3/12 CPU cores
+2025-01-05 18:38:44,024 - INFO - Checkpoint saved: 4900 videos processed
+2025-01-05 18:38:44,024 - INFO - Batch 26 completed:
+2025-01-05 18:38:44,024 - INFO - Processed: 100 videos
+2025-01-05 18:38:44,024 - INFO - Failed: 0 videos
+2025-01-05 18:38:44,024 - INFO - Duration: 56.03 seconds
+2025-01-05 18:38:44,024 - INFO - 
+Processing batch 27/97
+2025-01-05 18:38:44,024 - INFO - Using 3/12 CPU cores
+2025-01-05 18:39:39,827 - INFO - Checkpoint saved: 5000 videos processed
+2025-01-05 18:39:39,827 - INFO - Batch 27 completed:
+2025-01-05 18:39:39,827 - INFO - Processed: 100 videos
+2025-01-05 18:39:39,827 - INFO - Failed: 0 videos
+2025-01-05 18:39:39,827 - INFO - Duration: 55.80 seconds
+2025-01-05 18:39:39,827 - INFO - 
+Processing batch 28/97
+2025-01-05 18:39:39,827 - INFO - Using 3/12 CPU cores
+2025-01-05 18:40:34,205 - INFO - Checkpoint saved: 5100 videos processed
+2025-01-05 18:40:34,206 - INFO - Batch 28 completed:
+2025-01-05 18:40:34,206 - INFO - Processed: 100 videos
+2025-01-05 18:40:34,206 - INFO - Failed: 0 videos
+2025-01-05 18:40:34,206 - INFO - Duration: 54.38 seconds
+2025-01-05 18:40:34,206 - INFO - 
+Processing batch 29/97
+2025-01-05 18:40:34,206 - INFO - Using 3/12 CPU cores
+2025-01-05 18:41:32,067 - INFO - Checkpoint saved: 5200 videos processed
+2025-01-05 18:41:32,067 - INFO - Batch 29 completed:
+2025-01-05 18:41:32,067 - INFO - Processed: 100 videos
+2025-01-05 18:41:32,067 - INFO - Failed: 0 videos
+2025-01-05 18:41:32,067 - INFO - Duration: 57.86 seconds
+2025-01-05 18:41:32,067 - INFO - 
+Processing batch 30/97
+2025-01-05 18:41:32,067 - INFO - Using 3/12 CPU cores
+2025-01-05 18:42:27,867 - INFO - Checkpoint saved: 5300 videos processed
+2025-01-05 18:42:27,868 - INFO - Batch 30 completed:
+2025-01-05 18:42:27,868 - INFO - Processed: 100 videos
+2025-01-05 18:42:27,868 - INFO - Failed: 0 videos
+2025-01-05 18:42:27,868 - INFO - Duration: 55.80 seconds
+2025-01-05 18:42:27,868 - INFO - 
+Processing batch 31/97
+2025-01-05 18:42:27,868 - INFO - Using 3/12 CPU cores
+2025-01-05 18:43:23,080 - INFO - Checkpoint saved: 5400 videos processed
+2025-01-05 18:43:23,081 - INFO - Batch 31 completed:
+2025-01-05 18:43:23,081 - INFO - Processed: 100 videos
+2025-01-05 18:43:23,081 - INFO - Failed: 0 videos
+2025-01-05 18:43:23,081 - INFO - Duration: 55.21 seconds
+2025-01-05 18:43:23,081 - INFO - 
+Processing batch 32/97
+2025-01-05 18:43:23,081 - INFO - Using 3/12 CPU cores
+2025-01-05 18:44:17,190 - INFO - Checkpoint saved: 5500 videos processed
+2025-01-05 18:44:17,190 - INFO - Batch 32 completed:
+2025-01-05 18:44:17,190 - INFO - Processed: 100 videos
+2025-01-05 18:44:17,190 - INFO - Failed: 0 videos
+2025-01-05 18:44:17,190 - INFO - Duration: 54.11 seconds
+2025-01-05 18:44:17,190 - INFO - 
+Processing batch 33/97
+2025-01-05 18:44:17,190 - INFO - Using 3/12 CPU cores
+2025-01-05 18:45:10,562 - INFO - Checkpoint saved: 5600 videos processed
+2025-01-05 18:45:10,564 - INFO - Batch 33 completed:
+2025-01-05 18:45:10,564 - INFO - Processed: 100 videos
+2025-01-05 18:45:10,564 - INFO - Failed: 0 videos
+2025-01-05 18:45:10,564 - INFO - Duration: 53.37 seconds
+2025-01-05 18:45:10,564 - INFO - 
+Processing batch 34/97
+2025-01-05 18:45:10,564 - INFO - Using 3/12 CPU cores
+2025-01-05 18:46:07,262 - INFO - Checkpoint saved: 5700 videos processed
+2025-01-05 18:46:07,262 - INFO - Batch 34 completed:
+2025-01-05 18:46:07,262 - INFO - Processed: 100 videos
+2025-01-05 18:46:07,262 - INFO - Failed: 0 videos
+2025-01-05 18:46:07,262 - INFO - Duration: 56.69 seconds
+2025-01-05 18:46:07,262 - INFO - 
+Processing batch 35/97
+2025-01-05 18:46:07,262 - INFO - Using 3/12 CPU cores
+2025-01-05 18:47:00,546 - INFO - Checkpoint saved: 5800 videos processed
+2025-01-05 18:47:00,547 - INFO - Batch 35 completed:
+2025-01-05 18:47:00,547 - INFO - Processed: 100 videos
+2025-01-05 18:47:00,547 - INFO - Failed: 0 videos
+2025-01-05 18:47:00,547 - INFO - Duration: 53.28 seconds
+2025-01-05 18:47:00,547 - INFO - 
+Processing batch 36/97
+2025-01-05 18:47:00,547 - INFO - Using 3/12 CPU cores
+2025-01-05 18:47:55,392 - INFO - Checkpoint saved: 5900 videos processed
+2025-01-05 18:47:55,392 - INFO - Batch 36 completed:
+2025-01-05 18:47:55,392 - INFO - Processed: 100 videos
+2025-01-05 18:47:55,392 - INFO - Failed: 0 videos
+2025-01-05 18:47:55,392 - INFO - Duration: 54.84 seconds
+2025-01-05 18:47:55,392 - INFO - 
+Processing batch 37/97
+2025-01-05 18:47:55,392 - INFO - Using 3/12 CPU cores
+2025-01-05 18:48:52,111 - INFO - Checkpoint saved: 6000 videos processed
+2025-01-05 18:48:52,112 - INFO - Batch 37 completed:
+2025-01-05 18:48:52,112 - INFO - Processed: 100 videos
+2025-01-05 18:48:52,112 - INFO - Failed: 0 videos
+2025-01-05 18:48:52,112 - INFO - Duration: 56.72 seconds
+2025-01-05 18:48:52,112 - INFO - 
+Processing batch 38/97
+2025-01-05 18:48:52,112 - INFO - Using 3/12 CPU cores
+2025-01-05 18:49:49,469 - INFO - Checkpoint saved: 6100 videos processed
+2025-01-05 18:49:49,469 - INFO - Batch 38 completed:
+2025-01-05 18:49:49,469 - INFO - Processed: 100 videos
+2025-01-05 18:49:49,469 - INFO - Failed: 0 videos
+2025-01-05 18:49:49,469 - INFO - Duration: 57.35 seconds
+2025-01-05 18:49:49,469 - INFO - 
+Processing batch 39/97
+2025-01-05 18:49:49,469 - INFO - Using 3/12 CPU cores
+2025-01-05 18:50:50,404 - INFO - Checkpoint saved: 6200 videos processed
+2025-01-05 18:50:50,405 - INFO - Batch 39 completed:
+2025-01-05 18:50:50,405 - INFO - Processed: 100 videos
+2025-01-05 18:50:50,405 - INFO - Failed: 0 videos
+2025-01-05 18:50:50,405 - INFO - Duration: 60.93 seconds
+2025-01-05 18:50:50,405 - INFO - 
+Processing batch 40/97
+2025-01-05 18:50:50,405 - INFO - Using 3/12 CPU cores
+2025-01-05 18:51:47,609 - INFO - Checkpoint saved: 6300 videos processed
+2025-01-05 18:51:47,609 - INFO - Batch 40 completed:
+2025-01-05 18:51:47,609 - INFO - Processed: 100 videos
+2025-01-05 18:51:47,609 - INFO - Failed: 0 videos
+2025-01-05 18:51:47,610 - INFO - Duration: 57.20 seconds
+2025-01-05 18:51:47,610 - INFO - 
+Processing batch 41/97
+2025-01-05 18:51:47,610 - INFO - Using 3/12 CPU cores
+2025-01-05 18:52:43,815 - INFO - Checkpoint saved: 6400 videos processed
+2025-01-05 18:52:43,815 - INFO - Batch 41 completed:
+2025-01-05 18:52:43,815 - INFO - Processed: 100 videos
+2025-01-05 18:52:43,815 - INFO - Failed: 0 videos
+2025-01-05 18:52:43,815 - INFO - Duration: 56.20 seconds
+2025-01-05 18:52:43,815 - INFO - 
+Processing batch 42/97
+2025-01-05 18:52:43,815 - INFO - Using 3/12 CPU cores
+2025-01-05 18:53:45,622 - INFO - Checkpoint saved: 6500 videos processed
+2025-01-05 18:53:45,622 - INFO - Batch 42 completed:
+2025-01-05 18:53:45,622 - INFO - Processed: 100 videos
+2025-01-05 18:53:45,622 - INFO - Failed: 0 videos
+2025-01-05 18:53:45,622 - INFO - Duration: 61.80 seconds
+2025-01-05 18:53:45,622 - INFO - 
+Processing batch 43/97
+2025-01-05 18:53:45,622 - INFO - Using 3/12 CPU cores
+2025-01-05 18:54:45,581 - INFO - Checkpoint saved: 6600 videos processed
+2025-01-05 18:54:45,582 - INFO - Batch 43 completed:
+2025-01-05 18:54:45,582 - INFO - Processed: 100 videos
+2025-01-05 18:54:45,582 - INFO - Failed: 0 videos
+2025-01-05 18:54:45,582 - INFO - Duration: 59.96 seconds
+2025-01-05 18:54:45,582 - INFO - 
+Processing batch 44/97
+2025-01-05 18:54:45,582 - INFO - Using 3/12 CPU cores
+2025-01-05 18:55:43,340 - INFO - Checkpoint saved: 6700 videos processed
+2025-01-05 18:55:43,340 - INFO - Batch 44 completed:
+2025-01-05 18:55:43,340 - INFO - Processed: 100 videos
+2025-01-05 18:55:43,340 - INFO - Failed: 0 videos
+2025-01-05 18:55:43,340 - INFO - Duration: 57.75 seconds
+2025-01-05 18:55:43,341 - INFO - 
+Processing batch 45/97
+2025-01-05 18:55:43,341 - INFO - Using 3/12 CPU cores
+2025-01-05 18:56:43,394 - INFO - Checkpoint saved: 6800 videos processed
+2025-01-05 18:56:43,395 - INFO - Batch 45 completed:
+2025-01-05 18:56:43,395 - INFO - Processed: 100 videos
+2025-01-05 18:56:43,395 - INFO - Failed: 0 videos
+2025-01-05 18:56:43,395 - INFO - Duration: 60.05 seconds
+2025-01-05 18:56:43,395 - INFO - 
+Processing batch 46/97
+2025-01-05 18:56:43,395 - INFO - Using 3/12 CPU cores
+2025-01-05 18:57:43,198 - INFO - Checkpoint saved: 6900 videos processed
+2025-01-05 18:57:43,199 - INFO - Batch 46 completed:
+2025-01-05 18:57:43,199 - INFO - Processed: 100 videos
+2025-01-05 18:57:43,199 - INFO - Failed: 0 videos
+2025-01-05 18:57:43,199 - INFO - Duration: 59.80 seconds
+2025-01-05 18:57:43,199 - INFO - 
+Processing batch 47/97
+2025-01-05 18:57:43,199 - INFO - Using 3/12 CPU cores
+2025-01-05 18:58:38,203 - INFO - Checkpoint saved: 7000 videos processed
+2025-01-05 18:58:38,204 - INFO - Batch 47 completed:
+2025-01-05 18:58:38,204 - INFO - Processed: 100 videos
+2025-01-05 18:58:38,204 - INFO - Failed: 0 videos
+2025-01-05 18:58:38,204 - INFO - Duration: 55.00 seconds
+2025-01-05 18:58:38,204 - INFO - 
+Processing batch 48/97
+2025-01-05 18:58:38,204 - INFO - Using 3/12 CPU cores
+2025-01-05 18:59:34,010 - INFO - Checkpoint saved: 7100 videos processed
+2025-01-05 18:59:34,011 - INFO - Batch 48 completed:
+2025-01-05 18:59:34,011 - INFO - Processed: 100 videos
+2025-01-05 18:59:34,011 - INFO - Failed: 0 videos
+2025-01-05 18:59:34,011 - INFO - Duration: 55.80 seconds
+2025-01-05 18:59:34,011 - INFO - 
+Processing batch 49/97
+2025-01-05 18:59:34,011 - INFO - Using 3/12 CPU cores
+2025-01-05 19:00:30,281 - INFO - Checkpoint saved: 7200 videos processed
+2025-01-05 19:00:30,282 - INFO - Batch 49 completed:
+2025-01-05 19:00:30,282 - INFO - Processed: 100 videos
+2025-01-05 19:00:30,282 - INFO - Failed: 0 videos
+2025-01-05 19:00:30,282 - INFO - Duration: 56.27 seconds
+2025-01-05 19:00:30,282 - INFO - 
+Processing batch 50/97
+2025-01-05 19:00:30,282 - INFO - Using 3/12 CPU cores
+2025-01-05 19:01:27,208 - INFO - Checkpoint saved: 7300 videos processed
+2025-01-05 19:01:27,209 - INFO - Batch 50 completed:
+2025-01-05 19:01:27,209 - INFO - Processed: 100 videos
+2025-01-05 19:01:27,209 - INFO - Failed: 0 videos
+2025-01-05 19:01:27,209 - INFO - Duration: 56.92 seconds
+2025-01-05 19:01:27,209 - INFO - 
+Processing batch 51/97
+2025-01-05 19:01:27,209 - INFO - Using 3/12 CPU cores
+2025-01-05 19:02:21,253 - INFO - Checkpoint saved: 7400 videos processed
+2025-01-05 19:02:21,253 - INFO - Batch 51 completed:
+2025-01-05 19:02:21,253 - INFO - Processed: 100 videos
+2025-01-05 19:02:21,253 - INFO - Failed: 0 videos
+2025-01-05 19:02:21,253 - INFO - Duration: 54.04 seconds
+2025-01-05 19:02:21,254 - INFO - 
+Processing batch 52/97
+2025-01-05 19:02:21,254 - INFO - Using 3/12 CPU cores
+2025-01-05 19:03:16,972 - INFO - Checkpoint saved: 7500 videos processed
+2025-01-05 19:03:16,972 - INFO - Batch 52 completed:
+2025-01-05 19:03:16,972 - INFO - Processed: 100 videos
+2025-01-05 19:03:16,973 - INFO - Failed: 0 videos
+2025-01-05 19:03:16,973 - INFO - Duration: 55.71 seconds
+2025-01-05 19:03:16,973 - INFO - 
+Processing batch 53/97
+2025-01-05 19:03:16,973 - INFO - Using 3/12 CPU cores
+2025-01-05 19:04:14,891 - INFO - Checkpoint saved: 7600 videos processed
+2025-01-05 19:04:14,892 - INFO - Batch 53 completed:
+2025-01-05 19:04:14,892 - INFO - Processed: 100 videos
+2025-01-05 19:04:14,892 - INFO - Failed: 0 videos
+2025-01-05 19:04:14,892 - INFO - Duration: 57.92 seconds
+2025-01-05 19:04:14,892 - INFO - 
+Processing batch 54/97
+2025-01-05 19:04:14,892 - INFO - Using 3/12 CPU cores
+2025-01-05 19:05:13,154 - INFO - Checkpoint saved: 7700 videos processed
+2025-01-05 19:05:13,154 - INFO - Batch 54 completed:
+2025-01-05 19:05:13,154 - INFO - Processed: 100 videos
+2025-01-05 19:05:13,154 - INFO - Failed: 0 videos
+2025-01-05 19:05:13,154 - INFO - Duration: 58.26 seconds
+2025-01-05 19:05:13,155 - INFO - 
+Processing batch 55/97
+2025-01-05 19:05:13,155 - INFO - Using 3/12 CPU cores
+2025-01-05 19:06:07,945 - INFO - Checkpoint saved: 7800 videos processed
+2025-01-05 19:06:07,946 - INFO - Batch 55 completed:
+2025-01-05 19:06:07,946 - INFO - Processed: 100 videos
+2025-01-05 19:06:07,946 - INFO - Failed: 0 videos
+2025-01-05 19:06:07,946 - INFO - Duration: 54.79 seconds
+2025-01-05 19:06:07,946 - INFO - 
+Processing batch 56/97
+2025-01-05 19:06:07,946 - INFO - Using 3/12 CPU cores
+2025-01-05 19:07:01,423 - INFO - Checkpoint saved: 7900 videos processed
+2025-01-05 19:07:01,423 - INFO - Batch 56 completed:
+2025-01-05 19:07:01,423 - INFO - Processed: 100 videos
+2025-01-05 19:07:01,423 - INFO - Failed: 0 videos
+2025-01-05 19:07:01,423 - INFO - Duration: 53.47 seconds
+2025-01-05 19:07:01,423 - INFO - 
+Processing batch 57/97
+2025-01-05 19:07:01,423 - INFO - Using 3/12 CPU cores
+2025-01-05 19:07:54,308 - INFO - Checkpoint saved: 8000 videos processed
+2025-01-05 19:07:54,308 - INFO - Batch 57 completed:
+2025-01-05 19:07:54,308 - INFO - Processed: 100 videos
+2025-01-05 19:07:54,308 - INFO - Failed: 0 videos
+2025-01-05 19:07:54,308 - INFO - Duration: 52.88 seconds
+2025-01-05 19:07:54,308 - INFO - 
+Processing batch 58/97
+2025-01-05 19:07:54,308 - INFO - Using 3/12 CPU cores
+2025-01-05 19:08:46,860 - INFO - Checkpoint saved: 8100 videos processed
+2025-01-05 19:08:46,861 - INFO - Batch 58 completed:
+2025-01-05 19:08:46,861 - INFO - Processed: 100 videos
+2025-01-05 19:08:46,861 - INFO - Failed: 0 videos
+2025-01-05 19:08:46,861 - INFO - Duration: 52.55 seconds
+2025-01-05 19:08:46,861 - INFO - 
+Processing batch 59/97
+2025-01-05 19:08:46,861 - INFO - Using 3/12 CPU cores
+2025-01-05 19:09:45,012 - INFO - Checkpoint saved: 8200 videos processed
+2025-01-05 19:09:45,013 - INFO - Batch 59 completed:
+2025-01-05 19:09:45,013 - INFO - Processed: 100 videos
+2025-01-05 19:09:45,013 - INFO - Failed: 0 videos
+2025-01-05 19:09:45,013 - INFO - Duration: 58.15 seconds
+2025-01-05 19:09:45,013 - INFO - 
+Processing batch 60/97
+2025-01-05 19:09:45,013 - INFO - Using 3/12 CPU cores
+2025-01-05 19:10:40,362 - INFO - Checkpoint saved: 8300 videos processed
+2025-01-05 19:10:40,363 - INFO - Batch 60 completed:
+2025-01-05 19:10:40,363 - INFO - Processed: 100 videos
+2025-01-05 19:10:40,363 - INFO - Failed: 0 videos
+2025-01-05 19:10:40,363 - INFO - Duration: 55.35 seconds
+2025-01-05 19:10:40,363 - INFO - 
+Processing batch 61/97
+2025-01-05 19:10:40,363 - INFO - Using 3/12 CPU cores
+2025-01-05 19:11:35,541 - INFO - Checkpoint saved: 8400 videos processed
+2025-01-05 19:11:35,542 - INFO - Batch 61 completed:
+2025-01-05 19:11:35,542 - INFO - Processed: 100 videos
+2025-01-05 19:11:35,542 - INFO - Failed: 0 videos
+2025-01-05 19:11:35,542 - INFO - Duration: 55.17 seconds
+2025-01-05 19:11:35,542 - INFO - 
+Processing batch 62/97
+2025-01-05 19:11:35,542 - INFO - Using 3/12 CPU cores
+2025-01-05 19:12:30,714 - INFO - Checkpoint saved: 8500 videos processed
+2025-01-05 19:12:30,714 - INFO - Batch 62 completed:
+2025-01-05 19:12:30,714 - INFO - Processed: 100 videos
+2025-01-05 19:12:30,714 - INFO - Failed: 0 videos
+2025-01-05 19:12:30,714 - INFO - Duration: 55.17 seconds
+2025-01-05 19:12:30,714 - INFO - 
+Processing batch 63/97
+2025-01-05 19:12:30,714 - INFO - Using 3/12 CPU cores
+2025-01-05 19:13:26,433 - INFO - Checkpoint saved: 8600 videos processed
+2025-01-05 19:13:26,433 - INFO - Batch 63 completed:
+2025-01-05 19:13:26,433 - INFO - Processed: 100 videos
+2025-01-05 19:13:26,433 - INFO - Failed: 0 videos
+2025-01-05 19:13:26,434 - INFO - Duration: 55.72 seconds
+2025-01-05 19:13:26,434 - INFO - 
+Processing batch 64/97
+2025-01-05 19:13:26,434 - INFO - Using 3/12 CPU cores
+2025-01-05 19:14:21,273 - INFO - Checkpoint saved: 8700 videos processed
+2025-01-05 19:14:21,274 - INFO - Batch 64 completed:
+2025-01-05 19:14:21,274 - INFO - Processed: 100 videos
+2025-01-05 19:14:21,274 - INFO - Failed: 0 videos
+2025-01-05 19:14:21,275 - INFO - Duration: 54.82 seconds
+2025-01-05 19:14:21,275 - INFO - 
+Processing batch 65/97
+2025-01-05 19:14:21,275 - INFO - Using 3/12 CPU cores
+2025-01-05 19:15:20,584 - INFO - Checkpoint saved: 8800 videos processed
+2025-01-05 19:15:20,584 - INFO - Batch 65 completed:
+2025-01-05 19:15:20,584 - INFO - Processed: 100 videos
+2025-01-05 19:15:20,584 - INFO - Failed: 0 videos
+2025-01-05 19:15:20,584 - INFO - Duration: 59.30 seconds
+2025-01-05 19:15:20,585 - INFO - 
+Processing batch 66/97
+2025-01-05 19:15:20,585 - INFO - Using 3/12 CPU cores
+2025-01-05 19:16:23,706 - INFO - Checkpoint saved: 8900 videos processed
+2025-01-05 19:16:23,706 - INFO - Batch 66 completed:
+2025-01-05 19:16:23,706 - INFO - Processed: 100 videos
+2025-01-05 19:16:23,706 - INFO - Failed: 0 videos
+2025-01-05 19:16:23,706 - INFO - Duration: 63.12 seconds
+2025-01-05 19:16:23,706 - INFO - 
+Processing batch 67/97
+2025-01-05 19:16:23,706 - INFO - Using 3/12 CPU cores
+2025-01-05 19:17:21,039 - INFO - Checkpoint saved: 9000 videos processed
+2025-01-05 19:17:21,039 - INFO - Batch 67 completed:
+2025-01-05 19:17:21,039 - INFO - Processed: 100 videos
+2025-01-05 19:17:21,039 - INFO - Failed: 0 videos
+2025-01-05 19:17:21,039 - INFO - Duration: 57.33 seconds
+2025-01-05 19:17:21,039 - INFO - 
+Processing batch 68/97
+2025-01-05 19:17:21,039 - INFO - Using 3/12 CPU cores
+2025-01-05 19:18:22,766 - INFO - Checkpoint saved: 9100 videos processed
+2025-01-05 19:18:22,766 - INFO - Batch 68 completed:
+2025-01-05 19:18:22,766 - INFO - Processed: 100 videos
+2025-01-05 19:18:22,766 - INFO - Failed: 0 videos
+2025-01-05 19:18:22,766 - INFO - Duration: 61.72 seconds
+2025-01-05 19:18:22,766 - INFO - 
+Processing batch 69/97
+2025-01-05 19:18:22,766 - INFO - Using 3/12 CPU cores
+2025-01-05 19:19:19,030 - INFO - Checkpoint saved: 9200 videos processed
+2025-01-05 19:19:19,030 - INFO - Batch 69 completed:
+2025-01-05 19:19:19,031 - INFO - Processed: 100 videos
+2025-01-05 19:19:19,031 - INFO - Failed: 0 videos
+2025-01-05 19:19:19,031 - INFO - Duration: 56.26 seconds
+2025-01-05 19:19:19,031 - INFO - 
+Processing batch 70/97
+2025-01-05 19:19:19,031 - INFO - Using 3/12 CPU cores
+2025-01-05 19:20:15,958 - INFO - Checkpoint saved: 9300 videos processed
+2025-01-05 19:20:15,958 - INFO - Batch 70 completed:
+2025-01-05 19:20:15,958 - INFO - Processed: 100 videos
+2025-01-05 19:20:15,958 - INFO - Failed: 0 videos
+2025-01-05 19:20:15,958 - INFO - Duration: 56.92 seconds
+2025-01-05 19:20:15,959 - INFO - 
+Processing batch 71/97
+2025-01-05 19:20:15,959 - INFO - Using 3/12 CPU cores
+2025-01-05 19:21:12,796 - INFO - Checkpoint saved: 9400 videos processed
+2025-01-05 19:21:12,796 - INFO - Batch 71 completed:
+2025-01-05 19:21:12,796 - INFO - Processed: 100 videos
+2025-01-05 19:21:12,796 - INFO - Failed: 0 videos
+2025-01-05 19:21:12,796 - INFO - Duration: 56.83 seconds
+2025-01-05 19:21:12,796 - INFO - 
+Processing batch 72/97
+2025-01-05 19:21:12,796 - INFO - Using 3/12 CPU cores
+2025-01-05 19:22:10,285 - INFO - Checkpoint saved: 9500 videos processed
+2025-01-05 19:22:10,286 - INFO - Batch 72 completed:
+2025-01-05 19:22:10,286 - INFO - Processed: 100 videos
+2025-01-05 19:22:10,286 - INFO - Failed: 0 videos
+2025-01-05 19:22:10,286 - INFO - Duration: 57.49 seconds
+2025-01-05 19:22:10,286 - INFO - 
+Processing batch 73/97
+2025-01-05 19:22:10,286 - INFO - Using 3/12 CPU cores
+2025-01-05 19:23:10,322 - INFO - Checkpoint saved: 9600 videos processed
+2025-01-05 19:23:10,322 - INFO - Batch 73 completed:
+2025-01-05 19:23:10,322 - INFO - Processed: 100 videos
+2025-01-05 19:23:10,322 - INFO - Failed: 0 videos
+2025-01-05 19:23:10,322 - INFO - Duration: 60.03 seconds
+2025-01-05 19:23:10,322 - INFO - 
+Processing batch 74/97
+2025-01-05 19:23:10,323 - INFO - Using 3/12 CPU cores
+2025-01-05 19:24:08,562 - INFO - Checkpoint saved: 9700 videos processed
+2025-01-05 19:24:08,563 - INFO - Batch 74 completed:
+2025-01-05 19:24:08,563 - INFO - Processed: 100 videos
+2025-01-05 19:24:08,563 - INFO - Failed: 0 videos
+2025-01-05 19:24:08,563 - INFO - Duration: 58.24 seconds
+2025-01-05 19:24:08,563 - INFO - 
+Processing batch 75/97
+2025-01-05 19:24:08,563 - INFO - Using 3/12 CPU cores
+2025-01-05 19:25:04,789 - INFO - Checkpoint saved: 9800 videos processed
+2025-01-05 19:25:04,790 - INFO - Batch 75 completed:
+2025-01-05 19:25:04,790 - INFO - Processed: 100 videos
+2025-01-05 19:25:04,790 - INFO - Failed: 0 videos
+2025-01-05 19:25:04,790 - INFO - Duration: 56.22 seconds
+2025-01-05 19:25:04,790 - INFO - 
+Processing batch 76/97
+2025-01-05 19:25:04,790 - INFO - Using 3/12 CPU cores
+2025-01-05 19:25:58,664 - INFO - Checkpoint saved: 9900 videos processed
+2025-01-05 19:25:58,665 - INFO - Batch 76 completed:
+2025-01-05 19:25:58,665 - INFO - Processed: 100 videos
+2025-01-05 19:25:58,665 - INFO - Failed: 0 videos
+2025-01-05 19:25:58,665 - INFO - Duration: 53.87 seconds
+2025-01-05 19:25:58,666 - INFO - 
+Processing batch 77/97
+2025-01-05 19:25:58,666 - INFO - Using 3/12 CPU cores
+2025-01-05 19:26:51,817 - INFO - Checkpoint saved: 10000 videos processed
+2025-01-05 19:26:51,818 - INFO - Batch 77 completed:
+2025-01-05 19:26:51,818 - INFO - Processed: 100 videos
+2025-01-05 19:26:51,818 - INFO - Failed: 0 videos
+2025-01-05 19:26:51,818 - INFO - Duration: 53.15 seconds
+2025-01-05 19:26:51,818 - INFO - 
+Processing batch 78/97
+2025-01-05 19:26:51,818 - INFO - Using 3/12 CPU cores
+2025-01-05 19:27:49,600 - INFO - Checkpoint saved: 10100 videos processed
+2025-01-05 19:27:49,601 - INFO - Batch 78 completed:
+2025-01-05 19:27:49,601 - INFO - Processed: 100 videos
+2025-01-05 19:27:49,601 - INFO - Failed: 0 videos
+2025-01-05 19:27:49,601 - INFO - Duration: 57.78 seconds
+2025-01-05 19:27:49,601 - INFO - 
+Processing batch 79/97
+2025-01-05 19:27:49,601 - INFO - Using 3/12 CPU cores
+2025-01-05 19:28:47,284 - INFO - Checkpoint saved: 10200 videos processed
+2025-01-05 19:28:47,284 - INFO - Batch 79 completed:
+2025-01-05 19:28:47,284 - INFO - Processed: 100 videos
+2025-01-05 19:28:47,284 - INFO - Failed: 0 videos
+2025-01-05 19:28:47,284 - INFO - Duration: 57.68 seconds
+2025-01-05 19:28:47,285 - INFO - 
+Processing batch 80/97
+2025-01-05 19:28:47,285 - INFO - Using 3/12 CPU cores
+2025-01-05 19:29:45,100 - INFO - Checkpoint saved: 10300 videos processed
+2025-01-05 19:29:45,101 - INFO - Batch 80 completed:
+2025-01-05 19:29:45,101 - INFO - Processed: 100 videos
+2025-01-05 19:29:45,101 - INFO - Failed: 0 videos
+2025-01-05 19:29:45,101 - INFO - Duration: 57.81 seconds
+2025-01-05 19:29:45,101 - INFO - 
+Processing batch 81/97
+2025-01-05 19:29:45,101 - INFO - Using 3/12 CPU cores
+2025-01-05 19:30:48,070 - INFO - Checkpoint saved: 10400 videos processed
+2025-01-05 19:30:48,071 - INFO - Batch 81 completed:
+2025-01-05 19:30:48,071 - INFO - Processed: 100 videos
+2025-01-05 19:30:48,071 - INFO - Failed: 0 videos
+2025-01-05 19:30:48,071 - INFO - Duration: 62.97 seconds
+2025-01-05 19:30:48,071 - INFO - 
+Processing batch 82/97
+2025-01-05 19:30:48,071 - INFO - Using 3/12 CPU cores
+2025-01-05 19:31:45,862 - INFO - Checkpoint saved: 10500 videos processed
+2025-01-05 19:31:45,862 - INFO - Batch 82 completed:
+2025-01-05 19:31:45,862 - INFO - Processed: 100 videos
+2025-01-05 19:31:45,862 - INFO - Failed: 0 videos
+2025-01-05 19:31:45,862 - INFO - Duration: 57.79 seconds
+2025-01-05 19:31:45,862 - INFO - 
+Processing batch 83/97
+2025-01-05 19:31:45,862 - INFO - Using 3/12 CPU cores
+2025-01-05 19:32:45,141 - INFO - Checkpoint saved: 10600 videos processed
+2025-01-05 19:32:45,141 - INFO - Batch 83 completed:
+2025-01-05 19:32:45,141 - INFO - Processed: 100 videos
+2025-01-05 19:32:45,141 - INFO - Failed: 0 videos
+2025-01-05 19:32:45,141 - INFO - Duration: 59.27 seconds
+2025-01-05 19:32:45,141 - INFO - 
+Processing batch 84/97
+2025-01-05 19:32:45,141 - INFO - Using 3/12 CPU cores
+2025-01-05 19:33:42,772 - INFO - Checkpoint saved: 10700 videos processed
+2025-01-05 19:33:42,772 - INFO - Batch 84 completed:
+2025-01-05 19:33:42,772 - INFO - Processed: 100 videos
+2025-01-05 19:33:42,772 - INFO - Failed: 0 videos
+2025-01-05 19:33:42,772 - INFO - Duration: 57.63 seconds
+2025-01-05 19:33:42,772 - INFO - 
+Processing batch 85/97
+2025-01-05 19:33:42,772 - INFO - Using 3/12 CPU cores
+2025-01-05 19:34:43,058 - INFO - Checkpoint saved: 10800 videos processed
+2025-01-05 19:34:43,058 - INFO - Batch 85 completed:
+2025-01-05 19:34:43,058 - INFO - Processed: 100 videos
+2025-01-05 19:34:43,058 - INFO - Failed: 0 videos
+2025-01-05 19:34:43,058 - INFO - Duration: 60.28 seconds
+2025-01-05 19:34:43,058 - INFO - 
+Processing batch 86/97
+2025-01-05 19:34:43,058 - INFO - Using 3/12 CPU cores
+2025-01-05 19:35:39,576 - INFO - Checkpoint saved: 10900 videos processed
+2025-01-05 19:35:39,576 - INFO - Batch 86 completed:
+2025-01-05 19:35:39,577 - INFO - Processed: 100 videos
+2025-01-05 19:35:39,577 - INFO - Failed: 0 videos
+2025-01-05 19:35:39,577 - INFO - Duration: 56.51 seconds
+2025-01-05 19:35:39,577 - INFO - 
+Processing batch 87/97
+2025-01-05 19:35:39,577 - INFO - Using 3/12 CPU cores
+2025-01-05 19:36:30,044 - INFO - Checkpoint saved: 11000 videos processed
+2025-01-05 19:36:30,045 - INFO - Batch 87 completed:
+2025-01-05 19:36:30,045 - INFO - Processed: 100 videos
+2025-01-05 19:36:30,045 - INFO - Failed: 0 videos
+2025-01-05 19:36:30,045 - INFO - Duration: 50.46 seconds
+2025-01-05 19:36:30,045 - INFO - 
+Processing batch 88/97
+2025-01-05 19:36:30,045 - INFO - Using 3/12 CPU cores
+2025-01-05 19:37:24,315 - INFO - Checkpoint saved: 11100 videos processed
+2025-01-05 19:37:24,317 - INFO - Batch 88 completed:
+2025-01-05 19:37:24,317 - INFO - Processed: 100 videos
+2025-01-05 19:37:24,317 - INFO - Failed: 0 videos
+2025-01-05 19:37:24,317 - INFO - Duration: 54.26 seconds
+2025-01-05 19:37:24,317 - INFO - 
+Processing batch 89/97
+2025-01-05 19:37:24,317 - INFO - Using 3/12 CPU cores
+2025-01-05 19:38:21,648 - INFO - Checkpoint saved: 11200 videos processed
+2025-01-05 19:38:21,649 - INFO - Batch 89 completed:
+2025-01-05 19:38:21,649 - INFO - Processed: 100 videos
+2025-01-05 19:38:21,649 - INFO - Failed: 0 videos
+2025-01-05 19:38:21,649 - INFO - Duration: 57.33 seconds
+2025-01-05 19:38:21,649 - INFO - 
+Processing batch 90/97
+2025-01-05 19:38:21,649 - INFO - Using 3/12 CPU cores
+2025-01-05 19:39:20,139 - INFO - Checkpoint saved: 11300 videos processed
+2025-01-05 19:39:20,139 - INFO - Batch 90 completed:
+2025-01-05 19:39:20,139 - INFO - Processed: 100 videos
+2025-01-05 19:39:20,139 - INFO - Failed: 0 videos
+2025-01-05 19:39:20,139 - INFO - Duration: 58.49 seconds
+2025-01-05 19:39:20,139 - INFO - 
+Processing batch 91/97
+2025-01-05 19:39:20,139 - INFO - Using 3/12 CPU cores
+2025-01-05 19:40:17,187 - INFO - Checkpoint saved: 11400 videos processed
+2025-01-05 19:40:17,188 - INFO - Batch 91 completed:
+2025-01-05 19:40:17,188 - INFO - Processed: 100 videos
+2025-01-05 19:40:17,188 - INFO - Failed: 0 videos
+2025-01-05 19:40:17,188 - INFO - Duration: 57.04 seconds
+2025-01-05 19:40:17,188 - INFO - 
+Processing batch 92/97
+2025-01-05 19:40:17,188 - INFO - Using 3/12 CPU cores
+2025-01-05 19:41:18,130 - INFO - Checkpoint saved: 11500 videos processed
+2025-01-05 19:41:18,131 - INFO - Batch 92 completed:
+2025-01-05 19:41:18,131 - INFO - Processed: 100 videos
+2025-01-05 19:41:18,131 - INFO - Failed: 0 videos
+2025-01-05 19:41:18,131 - INFO - Duration: 60.94 seconds
+2025-01-05 19:41:18,131 - INFO - 
+Processing batch 93/97
+2025-01-05 19:41:18,131 - INFO - Using 3/12 CPU cores
+2025-01-05 19:42:18,726 - INFO - Checkpoint saved: 11600 videos processed
+2025-01-05 19:42:18,727 - INFO - Batch 93 completed:
+2025-01-05 19:42:18,727 - INFO - Processed: 100 videos
+2025-01-05 19:42:18,727 - INFO - Failed: 0 videos
+2025-01-05 19:42:18,727 - INFO - Duration: 60.59 seconds
+2025-01-05 19:42:18,728 - INFO - 
+Processing batch 94/97
+2025-01-05 19:42:18,728 - INFO - Using 3/12 CPU cores
+2025-01-05 19:43:16,949 - INFO - Checkpoint saved: 11700 videos processed
+2025-01-05 19:43:16,950 - INFO - Batch 94 completed:
+2025-01-05 19:43:16,950 - INFO - Processed: 100 videos
+2025-01-05 19:43:16,950 - INFO - Failed: 0 videos
+2025-01-05 19:43:16,950 - INFO - Duration: 58.22 seconds
+2025-01-05 19:43:16,950 - INFO - 
+Processing batch 95/97
+2025-01-05 19:43:16,950 - INFO - Using 3/12 CPU cores
+2025-01-05 19:44:11,168 - INFO - Checkpoint saved: 11800 videos processed
+2025-01-05 19:44:11,168 - INFO - Batch 95 completed:
+2025-01-05 19:44:11,168 - INFO - Processed: 100 videos
+2025-01-05 19:44:11,168 - INFO - Failed: 0 videos
+2025-01-05 19:44:11,168 - INFO - Duration: 54.21 seconds
+2025-01-05 19:44:11,168 - INFO - 
+Processing batch 96/97
+2025-01-05 19:44:11,168 - INFO - Using 3/12 CPU cores
+2025-01-05 19:45:11,062 - INFO - Checkpoint saved: 11900 videos processed
+2025-01-05 19:45:11,062 - INFO - Batch 96 completed:
+2025-01-05 19:45:11,062 - INFO - Processed: 100 videos
+2025-01-05 19:45:11,062 - INFO - Failed: 0 videos
+2025-01-05 19:45:11,062 - INFO - Duration: 59.89 seconds
+2025-01-05 19:45:11,062 - INFO - 
+Processing batch 97/97
+2025-01-05 19:45:11,062 - INFO - Using 3/12 CPU cores
+2025-01-05 19:45:55,849 - INFO - Checkpoint saved: 11980 videos processed
+2025-01-05 19:45:55,850 - INFO - Batch 97 completed:
+2025-01-05 19:45:55,850 - INFO - Processed: 80 videos
+2025-01-05 19:45:55,850 - INFO - Failed: 0 videos
+2025-01-05 19:45:55,850 - INFO - Duration: 44.78 seconds
+2025-01-05 19:45:55,909 - INFO - 
+Performing final verification...
+2025-01-05 19:46:05,530 - INFO - 
+Processing Complete!
+2025-01-05 19:46:05,530 - INFO - Successfully processed and verified: 11980 videos
+2025-01-05 19:46:05,530 - INFO - Corrupted or failed: 0 videos
+2025-01-05 19:46:05,530 - INFO - Total failed: 0 videos
